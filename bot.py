@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/qtmovie")
+                        InlineKeyboardButton("Updates Channel", url="https://telegram.me/Kkglims")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/qtmovie"),
-                        InlineKeyboardButton("Message Me", url="https://t.me/paidby99")
+                        InlineKeyboardButton("Support Group", url="https://telegram.me/Kkglims"),
+                        InlineKeyboardButton("Message Me", url="https://telegram.me/Kkglims")
                     ]
                 ]
             )
@@ -125,7 +125,7 @@ async def main(bot: Client, message: Message):
 
         if message.from_user.id in Config.BANNED_USERS:
             await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/VJ_Bot_Disscussion)",
-                                     disable_web_page_preview=True)
+                                     disable_web_page_preview=False)
             return
 
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
@@ -152,7 +152,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.id)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=VJBotz_{str_to_b64(file_er_id)}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=kk_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://t.me/paidby99")
+                                             url="https://telegram.me/Kkglims")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://t.me/paidby99")
+                                             url="https://telegram.me/Kkglims")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/qtmovie")
+                        InlineKeyboardButton("Updates Channel", url="https://telegram.me/Kkglims")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/qtmovie"),
-                        InlineKeyboardButton("YouTube Channel", url="https://t.me/qtmovie")
+                        InlineKeyboardButton("Support Group", url="https://telegram.me/Kkglims"),
+                        InlineKeyboardButton("YouTube Channel", url="https://telegram.me/Kkglims")
                     ]
                 ]
             )
