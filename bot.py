@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://telegram.me/Kkglims")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/+MxH5jcG5cek5OWNl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/Kkglims"),
-                        InlineKeyboardButton("Message Me", url="https://telegram.me/Kkglims")
+                        InlineKeyboardButton("Support Group", url="https://t.me/+MxH5jcG5cek5OWNl"),
+                        InlineKeyboardButton("Message Me", url="https://t.me/+MxH5jcG5cek5OWNl")
                     ]
                 ]
             )
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/VJ_Bot_Disscussion)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/+MxH5jcG5cek5OWNl)",
                                      disable_web_page_preview=False)
             return
 
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://telegram.me/Kkglims")
+                                             url="https://t.me/+MxH5jcG5cek5OWNl")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://telegram.me/Kkglims")
+                                             url="https://t.me/+MxH5jcG5cek5OWNl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://telegram.me/Kkglims")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/+MxH5jcG5cek5OWNl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/Kkglims"),
-                        InlineKeyboardButton("YouTube Channel", url="https://telegram.me/Kkglims")
+                        InlineKeyboardButton("Support Group", url="https://t.me/+MxH5jcG5cek5OWNl"),
+                        InlineKeyboardButton("YouTube Channel", url="https://t.me/+MxH5jcG5cek5OWNl")
                     ]
                 ]
             )
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/qtmovie"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/qtmovie")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/+MxH5jcG5cek5OWNl"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/+MxH5jcG5cek5OWNl")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
