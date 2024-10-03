@@ -74,16 +74,16 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/qtmovie")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/+MxH5jcG5cek5OWNl")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("", callback_data=""),
+                        InlineKeyboardButton("", callback_data=""),
+                        InlineKeyboardButton("", callback_data="")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/qtmovie"),
-                        InlineKeyboardButton("YouTube Channel", url="https://t.me/qtmovie")
+                        InlineKeyboardButton("", url=""),
+                        InlineKeyboardButton("", url="")
                     ]
                 ]
             )
