@@ -7,7 +7,7 @@ class Config(object):
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Permanent_Public_File_Store_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002209523802"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "ez4short.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "899320f9ce99df375c3b8323a3654f8f2704d411")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "499239c818a83028cc42031fb86833c05c6a0cfa")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6624919731"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://fffworld57:Or97XLuv6P6GvtFZ@cluster0.u34tcer.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
